@@ -11,12 +11,22 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco);
+    color: var (--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
-titulo-principal{
+.titulo-principal {
     text-align:left;
     width:100%
     font-sign:32px;
 }
+.titulo-principal spam {
+    color: var(--verde);
+}
+.botao{
+    font-family: ; "Chakra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    justify-content: center
+}
 
+    
