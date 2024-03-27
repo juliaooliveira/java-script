@@ -14,3 +14,17 @@ textos[i]. classlist. add ("ativo");
 
 const cotadores = document.querySelectorAll(".contador");
 const tempoObjetivo1= new date ("2024-03-25T00:00:00");
+contadores[0].textContent = calculaTempo(tempoObjetivo1);
+function calculaTempo(tempoObjetivo){
+  let tempoAtual = new.Date();
+  let tempoFinal = tempo.Objetivo - tempo Atual;
+  let segundos = math.floor(tempoFinal/1000);
+  let minutos = math.floor(segundos/60);
+  let horas = math.floor(minutos/60);
+  let dias = math.floor(horas/24);
+  
+  segundos % = 60;
+  minutos % = 60;
+  horas % = 24;
+  return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos"
+}
