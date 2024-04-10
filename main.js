@@ -35,9 +35,16 @@ function atualizaCronometro(){
   for(let i = 0 ,i < contadores.lenght; i++){
     contadores[i].textContent = calculaTempo(tempo[i]);
     }
-}
+
 function comecaCronometro(){
   atualizaCronometro();
   set Interval (atualizarCronometro, 1000);
 }
 comecaCronometro();
+  }
+if(tempoFinal>0){
+  return dias = 
+    }else{
+  return "Prazo finalizado";
+  }
+}
