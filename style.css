@@ -76,7 +76,21 @@ body {
     font-size: 20px;
     text-align: center;
 }
+.contador-digito{
+    padding:0 16px;
+    text-align: center;
+    min-witdh: 100px;
+}
+.contador-numero{
+    font-size: 90px;
+    margin: 0;
+}
     
+ .contador-digito.texto{
+    color: var(--verde);
+    font-size: 20px;
+     margin: 0;
+ }
 
 @media screen and (min-width: 768px) {
     .botoes {
